@@ -1,4 +1,4 @@
-Notification that help you reduce eye strain.
+Notification that help you reduce eye strain (tired eyes).
 
 Requirement:
 - Python 3.X installed
