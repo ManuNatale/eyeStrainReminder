@@ -1,4 +1,4 @@
-Notification that elp you reduce eye strain.
+Notification that help you reduce eye strain.
 
 Requirement:
 -python 3.X installed
