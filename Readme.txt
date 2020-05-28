@@ -1,7 +1,7 @@
 Notification that help you reduce eye strain.
 
 Requirement:
--python 3.X installed
+- Python 3.X installed
 
 Install:
 - Run Install.bat
