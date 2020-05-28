@@ -1,6 +1,7 @@
 Notification that help you reduce eye strain (tired eyes).
 
 Requirement:
+- Windows 10
 - Python 3.X installed
 
 Install:
