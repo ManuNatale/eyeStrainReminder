@@ -26,7 +26,7 @@ userLang = locale.windows_locale[windll.GetUserDefaultUILanguage()]
 
 if userLang.find('fr') != -1:
     toastTitle = 'Fatigue des yeux'
-    toastText = 'Regarder ailleur pendant 20 secondes'
+    toastText = 'Regardez ailleur pendant 20 secondes'
 else:
     toastTitle = 'Eye strain'
     toastText = 'Look away for 20 seconds'
@@ -59,10 +59,13 @@ while True:
 
     waiting(1200) # Change this value for notification interval (in sec)
     
+    toaster = ToastNotifier()
+    toaster.show_toast(toastTitle, toastText, duration=7, threaded=True)
+    
     try:
-        playsound('sound.mp3')
+        playsound('C:/Users/'+os.getlogin()+'/Documents/win10NotifLookAway/sound.mp3')
     except:
         pass
 
-    toaster = ToastNotifier()
-    toaster.show_toast(toastTitle, toastText, duration=7)
+    # Wait for threaded notification to finish
+    while toaster.notification_active(): time.sleep(0.1)
