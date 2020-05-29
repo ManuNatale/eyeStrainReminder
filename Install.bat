@@ -1,4 +1,4 @@
-@echo on
+@echo off
 
 echo Installing...
 
@@ -16,11 +16,8 @@ rem write autostar .bat file
 copy "Uninstall.bat" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
 copy "Readme.txt" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
 copy "win10NotifLookAway.py" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
-rem if not exist "C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAwayAutoStart.bat" copy "win10NotifLookAwayAutoStart" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
-rem if exist "C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAwayAutoStart" REN "C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAwayAutoStart" "win10NotifLookAwayAutoStart.bat"
 
 rem create shortcut in autostart folder
-
 set SCRIPT="%TEMP%\%RANDOM%-%RANDOM%-%RANDOM%-%RANDOM%.vbs"
 
 echo Set oWS = WScript.CreateObject("WScript.Shell") >> %SCRIPT%
@@ -44,5 +41,5 @@ start msgbox.vbs
 timeout /t 1 /nobreak
 
 del msgbox.vbs
-pause
+
 exit
