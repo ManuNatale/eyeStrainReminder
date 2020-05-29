@@ -1,3 +1,0 @@
-@echo off
-start pythonw C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAway.py
-exit
