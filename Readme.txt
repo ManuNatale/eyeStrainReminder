@@ -6,5 +6,6 @@ Requirement:
 
 Install:
 - Run Install.bat
+- Or you can run the code in console
 
 You can add a sound too, just name it "sound.mp3" and place it in this folder: "C:\Users\%USERNAME%\Documents\win10NotifLookAway"
