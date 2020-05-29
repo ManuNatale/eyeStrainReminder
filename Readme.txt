@@ -8,4 +8,9 @@ Install:
 - Run Install.bat
 - Or you can run the code in console
 
-You can add a sound too, just name it "sound.mp3" and place it in this folder: "C:\Users\%USERNAME%\Documents\win10NotifLookAway"
+Usage:
+  By Default reminder notification are send every 20 minutes, but feel free to modify it how you what by changing the value of "waiting" in the "win10NotifLookAway.py" file.
+
+  You can add a sound too, just name it "sound.mp3" and place it in this folder: "C:\Users\%USERNAME%\Documents\win10NotifLookAway"
+  
+  You can uninstall it simply by running "Uninstall.bat"
