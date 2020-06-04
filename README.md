@@ -18,6 +18,6 @@ Notification that help you reduce eye strain (tired eyes).
 
 - You can add a sound too, just name it "sound.mp3" and place it in this folder: "C:\Users\%USERNAME%\Documents\win10NotifLookAway"
 
-- The file "run" is what keep the script alive, if you want to stop the script delete it and creat it again or use install.bat(it's an empty file with no extension named "run")
+- The file "run" is what keep the script alive, if you want to stop the script delete it and creat it again or use install.bat (it's an empty file with no extension named "run")
   
 - You can uninstall it simply by running "Uninstall.bat"
