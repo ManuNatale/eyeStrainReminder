@@ -12,7 +12,7 @@ Notification that help you reduce eye strain (tired eyes).
 - Or you can run the code in console
 
 **Usage:**
-- By Default reminder notification are send every 20 minutes, but feel free to modify it how you what by changing the value of "waiting" in the "win10NotifLookAway.py" file.
+- By Default reminder notification are sent every 20 minutes, but feel free to modify it how you want by changing the value of the function call "waiting" in the "win10NotifLookAway.py" file.
   
 - By installing it, the script auto start with windows.
 
