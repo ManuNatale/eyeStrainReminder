@@ -8,6 +8,10 @@ Notification that help you reduce eye strain (tired eyes).
 - Python 3.X installed
 
 **Install:**
+- Download and run Win10Notif_Install.exe only
+
+or:
+- Download the repository
 - Run Install.bat
 - Or you can run the code in console
 
