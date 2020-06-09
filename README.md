@@ -8,7 +8,7 @@ Notification that help you reduce eye strain (tired eyes).
 - Python 3.X installed
 
 **Install:**
-- Download and run Win10Notif_Install.exe only
+- Download and run [Win10Notif_Install.exe](https://github.com/ManuNatale/eyeStrainReminder/raw/master/Win10EyeNotification.EXE) only
 
 or:
 - Download the repository
