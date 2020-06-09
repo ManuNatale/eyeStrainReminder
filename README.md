@@ -16,7 +16,7 @@ or:
 - Or you can run the code in console
 
 **Usage:**
-- By Default reminder notification are sent every 20 minutes, but feel free to modify it how you want by changing the value of the function call "waiting" in the "win10NotifLookAway.py" file.
+- By Default reminder notification are sent every 20 minutes, but feel free to modify it how you want by changing the value of IntervalNotifSec in "Win10Notif_Configuration.ini" (value is in seconds).
   
 - By installing it, the script auto start with windows.
 
