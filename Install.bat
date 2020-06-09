@@ -15,6 +15,7 @@ rem write autostar .bat file
 @echo start pythonw C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAway.py>> C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAwayAutoStart.bat
 @echo exit>> C:\Users\%USERNAME%\Documents\win10NotifLookAway\win10NotifLookAwayAutoStart.bat
 
+copy "Win10Notif_Configuration.ini" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
 copy "Uninstall.bat" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
 copy "Readme.txt" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"
 copy "win10NotifLookAway.py" "C:\Users\%USERNAME%\Documents\win10NotifLookAway\"

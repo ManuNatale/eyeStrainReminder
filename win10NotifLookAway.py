@@ -1,4 +1,5 @@
 from os import path
+from configparser import ConfigParser
 import time
 import os
 import sys
@@ -60,7 +61,13 @@ def waiting(waitTime):
 # Main loop
 while True:
 
-    waiting(1200) # Change this value for notification interval (in sec)
+    try:
+        parser = ConfigParser()
+        parser.read('C:/Users/'+os.getlogin()+'/Documents/win10NotifLookAway/Win10Notif_Configuration.ini')
+        NotifInterval = int(parser.get('conf', 'IntervalNotifSec'))
+        waiting(NotifInterval) # Change this value for notification interval (in sec)
+    except:
+        waiting(1200) # Change this value for notification interval (in sec)
     
     # Start notification
     toaster = ToastNotifier()
